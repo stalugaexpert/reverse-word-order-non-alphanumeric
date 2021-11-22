@@ -12,7 +12,7 @@ function nonAlphaReverse(data) {
 
   let output = [];
 
-  for (var i = 0; i < symbols.length; i++) {
+  for (let i = 0; i < symbols.length; i++) {
     output.push(symbols[i]);
     output.push(wordsReversed[i]);
   }
